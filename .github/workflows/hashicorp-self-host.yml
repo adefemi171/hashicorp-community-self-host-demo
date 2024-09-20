@@ -9,7 +9,7 @@ on:
 
 jobs:
   test-job:
-    runs-on: arc-runner
+    runs-on: arc-runners
     steps:
     - name: Checkout
       uses: actions/checkout@v3
